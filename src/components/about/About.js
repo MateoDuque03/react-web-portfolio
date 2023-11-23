@@ -2,10 +2,18 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about.jpg'
 import {FaAward } from 'react-icons/fa'
-import {FiUsers } from 'react-icons/fi'
 import {VscFolderLibrary } from 'react-icons/vsc'
 
 const About = () => {
+    const EXPERIENCE = 6;
+    const actualYear = new Date()
+    const YEAR_CREATED = new Date(`2023-${actualYear.getMonth() + 1}-01`);
+    const fullExperiences = getYearDiff(YEAR_CREATED, actualYear) + EXPERIENCE;
+
+    function getYearDiff(date1, date2) {
+        return Math.abs(date2.getFullYear() - date1.getFullYear());
+    }
+
     return (
         <section id='about'>
             <h5>Conoce</h5>
@@ -22,7 +30,7 @@ const About = () => {
                         <article className='about__card'>
                             <FaAward className='about__icon'/>
                             <h5>Experiencia</h5>
-                            <small>4+ Años Trabajando</small>
+                            <small>{fullExperiences}+ Años Trabajando</small>
                         </article>
                         <article className='about__card'>
                             <VscFolderLibrary className='about__icon'/>
@@ -31,7 +39,7 @@ const About = () => {
                         </article>
                     </div>
                     <p>
-                        Desarrollador web con más de 4 años de experiencia trabajando en Javascript y C#. 
+                        Desarrollador web con más de {fullExperiences} años de experiencia trabajando en Javascript, TypeScript y C#. 
                         Amante de Javascript y todo su ecosistema. He trabajado con NodeJS, React y Angular.
                         Apasionado del desarrollo de software, autodidacta, proactivo y emprendedor de nuevas tecnologías.
                     </p>
