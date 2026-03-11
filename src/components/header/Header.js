@@ -1,6 +1,6 @@
 import React from 'react'
 import Resume from './Resume'
-import ME from '../../assets/me.png'
+import ME from '../../assets/ProfilePhoto.jpg'
 import HeaderSocial from './HeaderSocial'
 import './header.css'
 
@@ -10,7 +10,7 @@ const Header = () => {
             <div className='container header__container'>
                 <h5>Hola, soy</h5>
                 <h1>Mateo Duque</h1>
-                <h5 className='text-light'>Software Developer</h5>
+                <h5 className='text-light'>Senior Software Developer</h5>
                 <Resume/>
                 <HeaderSocial/>
                 <div className='me'>

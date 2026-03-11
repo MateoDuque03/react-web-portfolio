@@ -1,10 +1,14 @@
-import React from 'react'
-import CV from '../../assets/cv.pdf'
-
 const Resume = () => {
   return (
     <div className='cta'>
-        <a href={CV} download className='btn'>Descargar HV</a>
+        <a 
+          target="_blank"
+          href='https://drive.google.com/file/d/17gjIg8kJLmMxYbVlV7q5bvL2Df9KlXXd/view?usp=sharing'
+          download
+          className='btn'
+        >
+          Descargar HV
+        </a>
         <a href='#contact' className='btn btn-primary'>Hablemos de HV</a>
     </div>
   )
