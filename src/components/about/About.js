@@ -1,14 +1,13 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/Profile.jpg'
 import {FaAward } from 'react-icons/fa'
 import {VscFolderLibrary } from 'react-icons/vsc'
 
 const About = () => {
-    const EXPERIENCE = 6;
-    const actualYear = new Date()
-    const YEAR_CREATED = new Date(`2023-${actualYear.getMonth() + 1}-01`);
-    const fullExperiences = getYearDiff(YEAR_CREATED, actualYear) + EXPERIENCE;
+    const currentYear = new Date()
+    const startedYear = new Date(`2018-01-01`);
+    const totalExperience = getYearDiff(startedYear, currentYear);
 
     function getYearDiff(date1, date2) {
         return Math.abs(date2.getFullYear() - date1.getFullYear());
@@ -30,7 +29,7 @@ const About = () => {
                         <article className='about__card'>
                             <FaAward className='about__icon'/>
                             <h5>Experiencia</h5>
-                            <small>{fullExperiences}+ Años Trabajando</small>
+                            <small>{totalExperience}+ Años Trabajando</small>
                         </article>
                         <article className='about__card'>
                             <VscFolderLibrary className='about__icon'/>
@@ -39,9 +38,7 @@ const About = () => {
                         </article>
                     </div>
                     <p>
-                        Desarrollador web con más de {fullExperiences} años de experiencia trabajando en Javascript, TypeScript y C#. 
-                        Amante de Javascript y todo su ecosistema. He trabajado con NodeJS, React y Angular.
-                        Apasionado del desarrollo de software, autodidacta, proactivo y emprendedor de nuevas tecnologías.
+                        Senior Frontend Developer con +{totalExperience} años de experiencia especializado en JavaScript, TypeScript, React y Angular. Experto en el diseño de arquitecturas escalables, implementación de micro-frontends y optimización de sistemas de alto rendimiento. Enfocado en metodologías ágiles, Clean Code y la entrega de soluciones técnicas estratégicas que maximizan el valor del producto y la experiencia del usuario.
                     </p>
 
                     <a href='#contact' className='btn btn-primary'>Hablemos</a>
