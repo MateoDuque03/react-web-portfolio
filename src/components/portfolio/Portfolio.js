@@ -1,11 +1,7 @@
-import React from 'react'
 import './portfolio.css'
 import IMG1 from  '../../assets/portfolio1.jpg'
 import IMG2 from  '../../assets/portfolio2.jpg'
 import IMG3 from  '../../assets/portfolio3.jpg'
-import IMG4 from  '../../assets/portfolio4.jpg'
-import IMG5 from  '../../assets/portfolio5.png'
-import IMG6 from  '../../assets/portfolio6.jpg'
 
 const Portfolio = () => {
     return (
@@ -20,8 +16,8 @@ const Portfolio = () => {
                     </div>
                     <h3>Tic-tac-toe Game</h3>
                     <div className='portfolio__item-cta'>
-                        <a target='_blank' href='https://github.com/MateoDuque03/triqui-game' className='btn'>GitHub</a>
-                        <a target='_blank' href='https://triqui-game-git-master.mateoduque03.vercel.app/' className='btn btn-primary' target='_blank' rel="noopener noreferrer">Live Demo</a>
+                        <a target='_blank' href='https://github.com/MateoDuque03/triqui-game' className='btn' rel="noopener noreferrer">GitHub</a>
+                        <a target='_blank' href='https://triqui-game-git-master.mateoduque03.vercel.app/' className='btn btn-primary' rel="noopener noreferrer">Live Demo</a>
                     </div>
                 </article>
                 <article className='portfolio__item'>
@@ -30,8 +26,8 @@ const Portfolio = () => {
                     </div>
                     <h3>React Crypto Price</h3>
                     <div className='portfolio__item-cta'>
-                        <a target='_blank' href='https://github.com/MateoDuque03/react-price-crypto' className='btn'>GitHub</a>
-                        <a target='_blank' href='https://react-price-crypto.vercel.app/' className='btn btn-primary' target='_blank' rel="noopener noreferrer">Live Demo</a>
+                        <a target='_blank' href='https://github.com/MateoDuque03/react-price-crypto' className='btn' rel="noopener noreferrer">GitHub</a>
+                        <a target='_blank' href='https://react-price-crypto.vercel.app/' className='btn btn-primary' rel="noopener noreferrer">Live Demo</a>
                     </div>
                 </article>
                 <article className='portfolio__item'>
@@ -40,8 +36,8 @@ const Portfolio = () => {
                     </div>
                     <h3>React Admin Task</h3>
                     <div className='portfolio__item-cta'>
-                        <a target='_blank' href='https://github.com/MateoDuque03/react-admin-task' className='btn'>GitHub</a>
-                        <a target='_blank' href='https://react-admin-task.vercel.app/' className='btn btn-primary' target='_blank' rel="noopener noreferrer">Live Demo</a>
+                        <a target='_blank' href='https://github.com/MateoDuque03/react-admin-task' className='btn' rel="noopener noreferrer">GitHub</a>
+                        <a target='_blank' href='https://react-admin-task.vercel.app/' className='btn btn-primary' rel="noopener noreferrer">Live Demo</a>
                     </div>
                 </article>
                 {/* <article className='portfolio__item'>
