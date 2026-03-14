@@ -20,8 +20,8 @@ const Portfolio = () => {
                     </div>
                     <h3>Tic-tac-toe Game</h3>
                     <div className='portfolio__item-cta'>
-                        <a href='https://github.com/MateoDuque03/triqui-game' className='btn'>GitHub</a>
-                        <a href='https://triqui-game-git-master.mateoduque03.vercel.app/' className='btn btn-primary' target='_blank' rel="noopener noreferrer">Live Demo</a>
+                        <a target='_blank' href='https://github.com/MateoDuque03/triqui-game' className='btn'>GitHub</a>
+                        <a target='_blank' href='https://triqui-game-git-master.mateoduque03.vercel.app/' className='btn btn-primary' target='_blank' rel="noopener noreferrer">Live Demo</a>
                     </div>
                 </article>
                 <article className='portfolio__item'>
@@ -30,8 +30,8 @@ const Portfolio = () => {
                     </div>
                     <h3>React Crypto Price</h3>
                     <div className='portfolio__item-cta'>
-                        <a href='https://github.com/MateoDuque03/react-price-crypto' className='btn'>GitHub</a>
-                        <a href='https://react-price-crypto.vercel.app/' className='btn btn-primary' target='_blank' rel="noopener noreferrer">Live Demo</a>
+                        <a target='_blank' href='https://github.com/MateoDuque03/react-price-crypto' className='btn'>GitHub</a>
+                        <a target='_blank' href='https://react-price-crypto.vercel.app/' className='btn btn-primary' target='_blank' rel="noopener noreferrer">Live Demo</a>
                     </div>
                 </article>
                 <article className='portfolio__item'>
@@ -40,8 +40,8 @@ const Portfolio = () => {
                     </div>
                     <h3>React Admin Task</h3>
                     <div className='portfolio__item-cta'>
-                        <a href='https://github.com/MateoDuque03/react-admin-task' className='btn'>GitHub</a>
-                        <a href='https://react-admin-task.vercel.app/' className='btn btn-primary' target='_blank' rel="noopener noreferrer">Live Demo</a>
+                        <a target='_blank' href='https://github.com/MateoDuque03/react-admin-task' className='btn'>GitHub</a>
+                        <a target='_blank' href='https://react-admin-task.vercel.app/' className='btn btn-primary' target='_blank' rel="noopener noreferrer">Live Demo</a>
                     </div>
                 </article>
                 {/* <article className='portfolio__item'>
