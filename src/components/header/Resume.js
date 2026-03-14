@@ -6,6 +6,7 @@ const Resume = () => {
           href='https://drive.google.com/file/d/17gjIg8kJLmMxYbVlV7q5bvL2Df9KlXXd/view?usp=sharing'
           download
           className='btn'
+          rel="noopener noreferrer"
         >
           Descargar HV
         </a>

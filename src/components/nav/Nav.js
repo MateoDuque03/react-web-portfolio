@@ -8,7 +8,7 @@ const Nav = () => {
     const [activeNav, setActive] = useState('#home');
     return (
         <nav>
-            <a href='#' onClick={() => setActive('#home')} className={activeNav === '#home' ? 'active tooltip' : 'tooltip'}>
+            <a href='#home' onClick={() => setActive('#home')} className={activeNav === '#home' ? 'active tooltip' : 'tooltip'}>
                 <AiOutlineHome/>
                 <span className="tooltiptext">Home</span>
             </a>
